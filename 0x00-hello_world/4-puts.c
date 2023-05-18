@@ -1,10 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void){
-char text[52];
+/**
+*main - Main function of my project
+*
+*
+*Return: return 0 everytime
+*/
+int main(void)
+{
 
-	strcpy(text, "\"Programming is like building a multilingual puzzle");
-	puts(text);
-return 0;
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
+	return (0);
 }
