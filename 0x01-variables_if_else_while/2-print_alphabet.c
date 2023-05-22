@@ -1,19 +1,23 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
-*main - Program to print alphabet letter followed by new line
-*
-*Return: return 0
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
+ * Return: Always 0 (Success)
 */
+
 int main(void)
 {
-	int letter;
-	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		letter = tolower(letter);
-		putchar(letter);
+		putchar(ch);
+		++ch;
 	}
 	putchar('\n');
+
 	return (0);
 }
