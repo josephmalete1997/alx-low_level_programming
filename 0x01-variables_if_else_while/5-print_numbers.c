@@ -1,10 +1,23 @@
 #include<stdio.h>
 
-int main(void){
-    int numbers;
-    for(numbers=0;numbers<10;numbers++){
-        printf("%i",numbers);
-    }
-    printf("\n");
-    return (0);
+/**
+ * main - Entry point
+ *
+ * Description: print all single digit numbers
+ *
+ * Return: Always 0 (Success)
+*/
+
+int main(void)
+{
+	int digit = 0;
+
+	while (digit <= 9)
+	{
+		printf("%i", digit);
+		++digit;
+	}
+	printf("\n");
+
+	return (0);
 }
