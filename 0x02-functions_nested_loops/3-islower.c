@@ -6,9 +6,9 @@
 
 int _islower(int c)
 {
-	c = _islower("j");
+	c = _islower('j');
 	if (_islower(c)){
-		_putchar(0);
+		_putchar(1);
 		return (1);
 	}
 	else
