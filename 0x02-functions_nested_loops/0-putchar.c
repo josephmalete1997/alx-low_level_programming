@@ -2,8 +2,6 @@
 
 /**
 *main - function prints text as output
-*
-*Return:return 0
 */
 
 int main(void)
@@ -14,6 +12,5 @@ int main(void)
 	for (ch = 0; ch < 8; ++ch)
 		_putchar(str[ch]);
 	_putchar('\n');
-
 	return (0);
 }
