@@ -7,13 +7,11 @@
 int _islower(int c)
 {
 	c = _islower('j');
-	if (_islower(c)){
-		_putchar(1);
+	if (c >= 97 && c <= 122){
 		return (1);
 	}
 	else
 	{
-		_putchar(0);
 		return (0);
 	}
 }
