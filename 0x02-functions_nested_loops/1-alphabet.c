@@ -1,5 +1,9 @@
 #include"main.h"
 
+/*
+ * This program prints alphabets in lowercase followed by a new line
+ */
+
 void print_alphabet(void)
 {
 	int ch;
