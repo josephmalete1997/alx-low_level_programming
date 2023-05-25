@@ -5,9 +5,15 @@
 *
 *Return:return 0
 */
+
 int main(void)
 {
-	char put[10] = "_putchar";
-	_putchar(put);
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
+
 	return (0);
 }
