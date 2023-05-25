@@ -6,7 +6,6 @@
 
 int _islower(int c)
 {
-	c = _islower('j');
 	if (c >= 97 && c <= 122){
 		return (1);
 	}
