@@ -1,21 +1,22 @@
 #include <stdio.h>
+
 /**
- * multiples_and_sum - computes the sum of multiples of 3 and 5 
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
+ *
+ * Return: Always 0.
  */
-void multiples_and_sum(int t, int f, int i, int sum)
+int main(void)
 {
-	i = 0;
-	f = 0;
-	sum = 0;
-	for (i = 0; i < 1024; ++i)
+	int i, sum = 0;
+
+	for (i = 0; i < 1024; i++)
 	{
-		++t;
-		++f;
-		if ((f % 5 == 0) || (t % 3 == 0))
-		{
-			sum += f;
-			sum += t;
-		}
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	printf("%d", sum);
+
+	printf("%d\n", sum);
+
+	return (0);
 }
